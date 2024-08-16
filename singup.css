@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+}
+
+.LetraB{
+    color: white;
+}
+
+body {
+    background-image: url(Fundo-inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kdam-thmor-pro-regular {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-regular-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-bodoni-regular-font {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.love-light-regular {
+    font-family: "Love Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.kavivanar-regular {
+    font-family: "Kavivanar", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.khand-regular {
+    font-family: "Khand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 40%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 7px 5px rgba(0, 0, 0, 25%);
+}
+header hr{
+    width: 54px;
+    rotate: 90deg;
+}
+
+header div {
+    color: #FFFF;
+
+}
+
+#H-hud {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+
+}
+
+#H-hud a {
+    font-size: 15px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+#H-logo {
+    font-family: "Julee", cursive;
+    padding: 0px 50px 0px 50px;
+    font-size: 30px;
+}
+
+#M-home:first-child {
+    font-size: 50px;
+}
+
+#H-logoCentro {
+    font-family: "Julee", cursive;
+    font-size: 150px;
+    background: #FFFFFF;
+    background: linear-gradient(to right, #FFFFFF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#H-pesquisa{
+    position: relative;
+}
+#H-pesquisa input{
+    border-radius: 50px;
+    padding-left: 25px;
+    height: 30px;
+    width: 170px;
+    font-family: "Inter", sans-serif;
+    border: none;
+}
+#H-pesquisa input~div{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 140px;
+    z-index: 10;
+}
+#H-pesquisa svg{
+    width: 20px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.TxtDuplo{
+    font-family: "Libre Bodoni", serif;
+    font-size: 70px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+.TxtDuplo span{
+    font-family:"Love Light", cursive;
+    color: #FF0505;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    font-size: 80px;
+    z-index: -1;
+    letter-spacing: 3px;
+}
+
+.txtfont{
+    font: 100 22px "Libre Bodoni", serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#M-FundoCadastro{
+    display: flex;
+    position: relative;
+    margin-bottom: 150px;
+    width: 1000px;
+    height: 700px;
+    background: #D9D9D9;
+    background: linear-gradient(48deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.8) 50%, rgba(66,56,56,0.7) 100%);
+    align-items:center;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+#M-fundoform{
+    width: 400px;
+    height: 500px;
+    background: rgb(0,0,0);
+    background: linear-gradient(309deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 50%, rgba(66,56,56,0.86) 100%);
+    border-radius: 25px;
+    margin-left: 50px;
+    padding-left: 25px;
+}
+#M-fundoform form{
+    color: white;
+    margin-top: 35px;
+}
+#M-fundoform input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 35px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+    font: 16px "Inter",sans-serif;
+    color: rgba(255, 255, 255, 90%);
+    background-color: rgba(255, 255, 255, 40%);
+}
+#M-fundoform input::selection{
+    background: #ff000059;
+    color: #ffffff;
+}
+form div{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+.M-botao{
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 80%);
+    background: rgb(255,5,5);
+    background: linear-gradient(48deg, rgba(255,5,5,1) 0%, rgba(0,0,0,0.8) 100%);
+    transition: 0.2s;
+}
+.M-botao:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    width: 155px;
+    height: 30px;
+    font-size: 24px;
+}
+form div>p{
+    padding-top: 10px;
+    text-align: center;
+    font: 100 16px"khand", sans-serif;
+}
+
+#M-imgComida{
+    position: absolute;
+    height: 730px;
+    width: 500px;
+    left: 700px;
+    top: 50px;
+    background-image:url(imagens/Entrar\ direita.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+#M-imgComida{
+    border-radius: 15px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background: rgb(66,56,56);
+    background: linear-gradient(148deg, rgba(66,56,56,0.9) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.9) 100%);
+}
+#F-horarios{
+    width: 500px;
+    padding: 20px 50px 20px 100px;
+    margin-left: 200px;
+}
+footer ul{
+    position: relative;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+footer li{
+    padding-bottom: 5px;
+}
+#F-Vertical{
+    position: absolute;
+    rotate: 90deg;
+    width: 130px;
+    top: 65px;
+    left: -80px;
+}
+footer li span{
+    padding-left: 20px;
+}
+.F-Txt{
+    font-family: "libere bodoni", serif;
+    color: white;
+    font-size: 25px;
+}
+
+#F-forms{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.F-Inputs{
+    margin-top: 10px ;
+    background-color: #D9D9D9;
+    height: 25px;
+    width: 300px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.F-txtarea{
+    width: 600px;
+    height: 100px;
+    padding: 15px;
+    resize: none;
+}
+.F-botao{
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: #D9D9D9;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    transition: 0.2s;
+    font-weight: 600;
+}
+.F-botao:hover{
+    color: #FF0505;
+    margin-left: 10px;
+}
